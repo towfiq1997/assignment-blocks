@@ -1,0 +1,26 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "assignment-blocks/usertable",
+  "version": "0.1.0",
+  "title": "User Table Block",
+  "category": "common",
+  "icon": "star-half",
+  "description": "User table block",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "tabletitle": {
+      "type": "string",
+      "default": "User Table"
+    },
+    "user": {
+      "type": "array"
+    }
+  },
+  "textdomain": "",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./index.css"
+}

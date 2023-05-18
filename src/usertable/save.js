@@ -67,7 +67,7 @@ const save = ({ attributes: { tabledata, tabletitle } }) => {
                                         <td className="px-6 py-4">{table.email}</td>
                                         <td className="px-6 py-4">{`${table.address.street}, ${table.address.suite}, ${table.address.city}, ${table.address.zipcode},Lang:${table.address.geo.lat} Lat:${table.address.geo.lng}`}</td>
                                         <td className="px-6 py-4">{table.phone}</td>
-                                        <td className="px-6 py-4"><a target="_blank" href={`http://${table.website}`}>{table.website}</a></td>
+                                        <td className="px-6 py-4">{table.website}</td>
                                         <td className="px-6 py-4">{`${table.company.name},${table.company.catchPhrase},${table.company.bs}`}</td>
                                         <td className="px-6 py-4">
                                             {table.extrafield}

@@ -141,10 +141,7 @@ const edit = _ref => {
     className: "px-6 py-4"
   }, table.phone), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("td", {
     className: "px-6 py-4"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("a", {
-    target: "_blank",
-    href: `http://${table.website}`
-  }, table.website)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("td", {
+  }, table.website), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("td", {
     className: "px-6 py-4"
   }, `${table.company.name},${table.company.catchPhrase},${table.company.bs}`), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_0__.createElement)("td", {
     className: "px-6 py-4"
@@ -258,10 +255,7 @@ const save = _ref => {
     className: "px-6 py-4"
   }, table.phone), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("td", {
     className: "px-6 py-4"
-  }, (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("a", {
-    target: "_blank",
-    href: `http://${table.website}`
-  }, table.website)), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("td", {
+  }, table.website), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("td", {
     className: "px-6 py-4"
   }, `${table.company.name},${table.company.catchPhrase},${table.company.bs}`), (0,_wordpress_element__WEBPACK_IMPORTED_MODULE_1__.createElement)("td", {
     className: "px-6 py-4"
